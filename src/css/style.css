@@ -1,0 +1,68 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/mainpic.jpg");
+  min-height: 100%;
+  position: relative;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+#myNavbar{
+    height: 5vw;
+}
+.page-title{
+    letter-spacing: 0.3em;
+    color: black;
+    line-height: normal;
+    font: normal normal normal 66px/1.4em poppins-extralight,poppins,sans-serif;
+    text-transform: uppercase;
+
+}
+.w3-hide-small{
+  height: 5vw;
+  margin-top: 2vh;
+}
+
+.under-title{
+color: black;
+margin-left: 40px;
+font-size: 1.5em !important;
+}
+.work-days{
+  display: flex; 
+  color: white;
+  width: 80%;
+  height: 30vh;
+  background-color: black;
+  position: absolute;
+  bottom: 10px;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+.home-work{
+  background-color: #fff;
+  color: black;
+}
+.work{
+  vertical-align: center;
+  text-align: center;
+  width: 33.33%;
+}
+.work .title{ 
+font-size: 23px;
+}
+.logo-image img{
+  height: 5vw;
+  margin-left: 2vw;
+}
