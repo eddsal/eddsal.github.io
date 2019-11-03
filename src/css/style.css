@@ -84,9 +84,9 @@ font-size: 23px;
   height: 5vw;
   margin-left: 2vw;
 }
-.loc-header .first .time{
+/* .loc-header .first .time{
   line-height: 0px !important;
-}
+} */
 .votre-os-text{
   width: 40vw;
   margin: 0 auto;
