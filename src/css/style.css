@@ -1,8 +1,13 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lucida Console", Monaco, monospace;
+
+}
 
 body, html {
   height: 100%;
   line-height: 1.8;
+  font-family: "Lucida Console", Monaco, monospace !important;
+
 }
 .bgimg-1 {
   background-position: center;
@@ -37,19 +42,32 @@ color: black;
 margin-left: 40px;
 font-size: 1.5em !important;
 }
-.work-days{
-  display: flex; 
+.loc-header .first{
   color: white;
-  width: 80%;
-  height: 30vh;
   background-color: black;
-  position: absolute;
-  bottom: 10px;
-  position: absolute;
-  margin: auto;
   right: 0;
   left: 0;
+  bottom: 0;
+
+  align-items: center;
+  justify-content: center
 }
+.loc-header .first p{
+  text-align: center;
+line-height: 50px
+}
+
+.loc-header .first .title .fa{
+  padding: 17px;
+    width: 2vw;
+}
+ .loc-header .title{
+   text-align: center;
+   font-size: 1cm;
+   vertical-align: center;
+ }
+
+
 .home-work{
   background-color: #fff;
   color: black;
@@ -66,3 +84,24 @@ font-size: 23px;
   height: 5vw;
   margin-left: 2vw;
 }
+.loc-header .first .time{
+  line-height: 0px !important;
+}
+.votre-os-text{
+  width: 40vw;
+  margin: 0 auto;
+  line-height: 40px;
+
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 540px !important;
+}
+  .gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 400px;
+    width: 545px !important;
+  }
