@@ -105,3 +105,13 @@ font-size: 23px;
     height: 400px;
     width: 545px !important;
   }
+  .w3-row-padding.location-service{
+    display:flex !important;
+    margin-top: 64px ;
+    justify-content: space-around;
+   }
+   @media only screen and (max-width: 600px) {
+    .w3-row-padding.location-service{
+     display: block !important
+    }
+  }
