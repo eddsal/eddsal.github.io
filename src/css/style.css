@@ -10,7 +10,7 @@ body, html {
 
 }
 .bgimg-1 {
-  height: 700px;
+  height: 800px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -113,6 +113,16 @@ font-size: 23px;
     display:flex !important;
     margin-top: 64px ;
     justify-content: space-around;
+   }
+   .logo-center-loc{
+    /* height: 500px; */
+    background-image: url("../img/logo.png");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  
    }
    @media only screen and (max-width: 600px) {
     .w3-row-padding.location-service{
