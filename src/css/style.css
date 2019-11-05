@@ -10,11 +10,15 @@ body, html {
 
 }
 .bgimg-1 {
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../img/mainpic.jpg");
-  min-height: 100%;
-  position: relative;
+  
 }
 
 .w3-bar .w3-button {
