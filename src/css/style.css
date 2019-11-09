@@ -140,6 +140,9 @@ font-size: 23px;
     top:0;
     background-image: url("../img/logo.png");
     }
+    .w3-justify p {
+      line-height: 30px;
+    }
    @media only screen and (max-width: 600px) {
     .w3-row-padding.location-service{
      display: block !important
