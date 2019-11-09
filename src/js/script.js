@@ -23,3 +23,15 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+window.onload = function(){
+
+  $(".pole_direc").click(function(){
+    $('.hover_bkgr_fricc').show();
+ });
+ $('.hover_bkgr_fricc').click(function(){
+     $('.hover_bkgr_fricc').hide();
+ });
+ $('.popupCloseButton').click(function(){
+     $('.hover_bkgr_fricc').hide();
+ });
+}
