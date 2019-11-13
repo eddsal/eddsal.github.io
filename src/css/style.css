@@ -236,6 +236,13 @@ body,h1,h2,h3,h4,h5,h6 {
   font-family: "Lucida Console", Monaco, monospace;
 
 }
+#losteo h3{
+  border-bottom: 10px solid #b8dfc6;
+
+}
+p{
+  white-space: pre-line;
+}
 
 body, html {
   overflow-x: hidden;
