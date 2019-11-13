@@ -238,6 +238,7 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 body, html {
+  overflow-x: hidden;
   height: 100%;
   line-height: 1.8;
   font-family: "Lucida Console", Monaco, monospace !important;
@@ -470,7 +471,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+  vertical-align: baseline;
+  overflow-x: hidden;
 }
     
 nav[role="navigation"] {
