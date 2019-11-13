@@ -33,11 +33,9 @@ window.onload = function(){
     $( ".menu" ).stop().slideToggle( "slow" );
   });
 
-  // $(".toggle").click(function() {
-  //   $( ".menu" ).stop().slideToggle( "slow" );
-  // });
-
-
+  $('#nav-icon2').click(function(){
+		$(this).toggleClass('open');
+	});
 
 
 
