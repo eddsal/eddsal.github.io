@@ -440,6 +440,9 @@ font-size: 23px;
     text-decoration: none;
     color: white;
   }
+  .toggle{
+    display: none
+  }
   nav[role="navigation"] {
     display: none
   }
@@ -487,6 +490,7 @@ nav[role="navigation"] {
   height: 12vw;
 }
 .toggle{
+  display: block;
     width: 39px;
     font-size: 2em;
     float: right;
