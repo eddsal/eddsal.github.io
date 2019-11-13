@@ -23,7 +23,14 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+
+
+
+
+
+
 window.onload = function(){
+
 
 
   $(".toggle").click(function() {
@@ -41,7 +48,6 @@ window.onload = function(){
 
 
 
-
   $(".pole_direc").click(function(){
     $('.hover_bkgr_fricc').show();
  });
@@ -51,4 +57,6 @@ window.onload = function(){
  $('.popupCloseButton').click(function(){
      $('.hover_bkgr_fricc').hide();
  });
+
+ 
 }
