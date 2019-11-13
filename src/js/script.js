@@ -25,6 +25,24 @@ function w3_close() {
 }
 window.onload = function(){
 
+
+  $(".toggle").click(function() {
+    $( ".menu" ).stop().slideToggle( "slow" );
+  });
+  $(".menu li a").click(function() {
+    $( ".menu" ).stop().slideToggle( "slow" );
+  });
+
+  // $(".toggle").click(function() {
+  //   $( ".menu" ).stop().slideToggle( "slow" );
+  // });
+
+
+
+
+
+
+
   $(".pole_direc").click(function(){
     $('.hover_bkgr_fricc').show();
  });

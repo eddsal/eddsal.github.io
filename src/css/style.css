@@ -359,7 +359,7 @@ font-size: 23px;
 
    .logo-center-loc{
     /* height: 500px; */
-    background-image: url("../img/logo.png");
+    background-image: url("../img/logo.jpg");
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -440,8 +440,79 @@ font-size: 23px;
     text-decoration: none;
     color: white;
   }
+  nav[role="navigation"] {
+    display: none
+  }
+
    @media only screen and (max-width: 600px) {
     .w3-row-padding.location-service{
      display: block !important
     }
+    
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+    
+nav[role="navigation"] {
+  display: block;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  
+}
+.logo-image img {
+  height: 13vw;
+  margin-left: 2vw;
+}
+.logo-image span {
+ display: none
+}
+#myNavbar{
+  height: 12vw;
+}
+.toggle{
+    width: 39px;
+    font-size: 2em;
+    float: right;
+}
+nav[role="navigation"] a {
+  font-size:1em;
+   color:black; 
+   text-decoration: none; 
+   padding: 0 10px;
+    line-height: 35px;
   }
+nav[role="navigation"] li {
+  width: 100%; 
+  height: auto; 
+  text-align: center; 
+  background:white; 
+  border: 1px solid #fff;
+  padding: 10px 0;
+
+}
+nav[role="navigation"] span {
+  font-size: 35px;}
+.menu {
+  list-style-type: none;
+  display: none;
+}
+
+  }
+  
