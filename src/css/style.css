@@ -487,8 +487,25 @@ font-size: 23px;
 .oceane_b_para1{
  margin-right: 90px;
 }
-
-   @media only screen and (max-width: 600px) {
+.carousel_cont{
+  margin-bottom: 12vh;
+  margin-top: 12vh;
+}
+.carousel_cont img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .right.carousel-control {
+  background-image: -webkit-linear-gradient(left, rgba(25, 34, 37, -0.5) 0%, #b8dfc6)!important;
+}
+.left.carousel-control {
+   background-image: -webkit-linear-gradient(right, rgba(25, 34, 37, -0.5) 0%, #b8dfc6)!important;
+}
+  
+  
+ 
+  @media only screen and (max-width: 600px) {
     .w3-row-padding.location-service{
      display: block !important
     }
