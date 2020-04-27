@@ -1,0 +1,74 @@
+@media (min-width:320px) and (max-width:480px){
+     .body{
+         width: 100%;
+     }
+     
+     .margin{
+         max-width: 95%;
+     }
+     .margin header img{
+         height: 145px;
+     }
+     #menu{
+         font-size: smaller;
+     }
+     .horaires{
+         width: 100%;
+     }
+     .contact{
+         width: 100%;
+     }
+     #cabinet{
+        display: contents;
+        font-size: smaller;
+        justify-content:space-between;
+        margin-bottom: 1cm;
+    }
+    .acces{
+        width: 100%;
+        max-width: 95%;
+    }
+    .loupe{
+        display: none;
+    }
+    .maps{
+        width: 100%;
+        max-width: 95%;
+        float: unset;
+        margin-bottom: 1cm;
+    }
+    #praticien {
+        font-size: smaller;
+    }
+    #qui {
+        font-size: smaller;
+    }
+    #consultation {
+        font-size: smaller;
+    }
+    .seance img {
+        max-width: 40vh;
+    }
+    #info {
+        font-size: smaller;
+    }
+     
+    
+
+
+
+}
+@media (min-width:481px) and (max-width:1024px){
+    .body{
+        width: 100%;
+    }
+    .margin{
+        max-width: 90%;
+    }
+    .margin header img{
+        height: 167px;
+    }
+    .seance img {
+        max-width: 55vh;
+    }
+}
