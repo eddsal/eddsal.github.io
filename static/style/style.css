@@ -34,12 +34,21 @@ body{
     padding-top: 2%;
     width: 64%; 
 }
+.note p{
+    text-align: center;
+    color: red;
+
+}
+
 h1{
     font-family: 'Josefin Slab', serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-bottom: 1cm;
     text-align: center;
 }
+p{
+    font-size: 1.1rem;
+}   
 #cabinet{
     display : flex;
     justify-content:space-between;
@@ -97,6 +106,11 @@ h1{
 #question{
     text-align: center;
 }
-.contact2 img{
+.contact2 a img{
     width: 2cm;
+    
+}
+.contact2 > a {
+margin: 10px;
+    
 }
